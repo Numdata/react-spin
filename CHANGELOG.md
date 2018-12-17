@@ -1,3 +1,12 @@
+## v0.6.6 - Dec 17 2018
+
+* Fork from [existing pull request](https://github.com/captDaylight/react-tiny-spin/pull/4) for React 16 compatibility. 
+* Configure Babel to match `react-tiny-spin@0.6.5` on NPM.
+* Use `componentDidUpdate` instead of deprecated `componentWillReceiveProps`.
+
+## v0.6.3 - v0.6.5
+???
+
 ## v0.6.2 - Apr 23 2016
 
 * Configure Babel transforms so the bundled output works in IE8. Thanks [@SimenB](https://github.com/SimenB)!

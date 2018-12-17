@@ -2,6 +2,8 @@
   "presets": ["react", "stage-1"],
   "plugins": [
     ["transform-es2015-modules-commonjs", { "loose": true }],
+    "transform-class-properties",
+    ["transform-es2015-classes", { "loose": true }],
     "transform-es2015-block-scoping",
     "transform-es2015-function-name",
     "transform-es3-property-literals",

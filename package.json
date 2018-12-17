@@ -1,6 +1,6 @@
 {
-  "name": "react-tiny-spin",
-  "version": "0.6.3",
+  "name": "@numdata/react-spin",
+  "version": "0.6.6",
   "description": "A React component wrapper for spin.js",
   "main": "lib/main.js",
   "scripts": {
@@ -13,14 +13,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/captDaylight/react-tiny-spin"
+    "url": "https://github.com/Numdata/react-tiny-spin"
   },
   "devDependencies": {
     "babel-cli": "^6.6.0",
     "babel-eslint": "^5.0.0",
     "babel-loader": "^6.2.4",
     "babel-plugin-check-es2015-constants": "^6.7.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-es2015-block-scoping": "^6.7.1",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-plugin-transform-es2015-function-name": "^6.5.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
     "babel-plugin-transform-es3-property-literals": "^6.5.0",

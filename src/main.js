@@ -15,10 +15,10 @@ class ReactSpinner extends PureComponent {
     }
   }
 
-  componentWillReceiveProps(newProps) {
-    if (newProps.stopped === true && !this.props.stopped) {
+  componentDidUpdate(prevProps) {
+    if (this.props.stopped === true && !prevProps.stopped) {
       this.spinner.stop();
-    } else if (!newProps.stopped && this.props.stopped === true) {
+    } else if (!this.props.stopped && prevProps.stopped === true) {
       this.spinner.spin(this.container);
     }
   }
@@ -29,7 +29,7 @@ class ReactSpinner extends PureComponent {
 
   render() {
     return (
-      <span ref={(container) => (this.container = container)} />
+      <span ref={container => this.container = container} />
     );
   }
 }

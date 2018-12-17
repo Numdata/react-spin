@@ -1,4 +1,4 @@
-# react-tiny-spin
+# @numdata/react-spin
 
 Tiny React wrapper around [spin.js](http://fgnass.github.io/spin.js/).
 
@@ -6,7 +6,7 @@ Tiny React wrapper around [spin.js](http://fgnass.github.io/spin.js/).
 
 ```javascript
 import React from 'react';
-import Spinner from 'react-tiny-spin';
+import Spinner from '@numdata/react-spin';
 
 const spinCfg = {
   width: 12,
