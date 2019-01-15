@@ -1,6 +1,6 @@
 {
   "name": "@numdata/react-spin",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "description": "A React component wrapper for spin.js",
   "main": "lib/main.js",
   "scripts": {
