@@ -1,6 +1,6 @@
 {
   "name": "@numdata/react-spin",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "A React component wrapper for spin.js",
   "main": "lib/main.js",
   "scripts": {
@@ -50,6 +50,7 @@
     "spin.js": "^2.0.1"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-rc.1 || ^16.0.0"
+    "react": "^0.14.0 || ^15.0.0-rc.1 || ^16.0.0",
+    "prop-types": "^15.6.0"
   }
 }
